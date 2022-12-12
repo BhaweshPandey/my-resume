@@ -1,0 +1,72 @@
+.Skill{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+.skill-item{
+    display: flex;
+padding: 0px;
+    font-size: 19px;
+    color:white;
+    margin: 25px;
+}
+
+.skillline-1{
+border: 2px solid rgb(234, 27, 27);
+    width: 500px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 81px;
+    background-color: rebeccapurple;
+}
+
+.skillline-2 {
+    border: 2px solid #74d023;
+    width: 500px;
+    height: 15px;
+    margin-top: 7px;
+    margin-left: 103px;
+    background-color: yellow;
+}
+
+.skillline-3{
+    border: 2px solid #2196f3;
+    width: 350px;
+    height: 16px;
+    margin-top: 8px;
+    margin-left: 52px;
+    background-color: coral;
+    
+}
+.skillline-4 {
+    border: 2px solid #0e9314;
+    width: 400px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 13px;
+    background-color: red;
+
+}
+
+@media (max-width:600px) {
+
+    .skillline-1{
+        width: 200px;
+    }
+    .skillline-2{
+        width: 150px;
+    }
+    .skillline-3{
+        width: 140px;
+    }
+    .skillline-4{
+        width: 170px;
+    }
+    
+}

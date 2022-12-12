@@ -1,0 +1,51 @@
+.Contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(red, rgb(0, 4, 255), green)
+}
+
+.Contact-Container{
+    border: 30px solid rgb(19, 18, 18);
+    padding: 30px 140px;
+    /* background-color: yellow; */
+    background-image: linear-gradient(yellow,red)
+}
+
+iframe{
+    width: 600px;
+    margin-top: 10px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+textarea{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.Contact-form{
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .Contact-Container{
+        border: none;
+        padding: 10px;
+    }
+
+    iframe{
+        width: 300px;
+    }
+    
+}

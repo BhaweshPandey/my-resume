@@ -1,0 +1,34 @@
+.About{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-image: linear-gradient(red,blue,yellow,rgb(230, 53, 200),orange,white);
+}
+
+.About-Container{
+    display: flex;
+    /* align-items: center; */
+}
+
+.btn-download{
+    background-color: rgb(9, 9, 14);
+    height: 30px;
+    width: 150px;
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .About{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .About-Container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+}

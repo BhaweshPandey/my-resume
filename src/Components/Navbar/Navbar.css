@@ -1,0 +1,35 @@
+.Navbar{
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+
+.Navbar-container{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: rgb(238, 38, 161);
+    width: 100%;
+}
+ 
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+li,a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+li,a:hover{
+    color: rgb(68, 0, 255);
+}
+
+.activeclass{
+    color: rgb(38, 0, 255);
+    border-bottom: 5px solid red;
+}
+
