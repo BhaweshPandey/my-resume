@@ -13,7 +13,7 @@ const Home = () => {
                     <div className='HomeMid-left'>
                         <Text TextName={'BHAWESH PANDEY'} Size={'44px'} textColor={'white'}/>
                         <br/>
-                        <Text TextName={'I am Bhawesh Pandey . I am Fronten developer currently living in a uttarakhand (INDIA),'} Size={'14px'} textColor={'#9C9C9C'} />
+                        <Text TextName={'I am Bhawesh Pandey . I am Front-end developer currently living in a uttarakhand (INDIA),'} Size={'14px'} textColor={'#9C9C9C'} />
                         <Text TextName={'currently building the moblie and web application for a newly Start Up ,bsite for us .'} Size={'14px'} textColor={'#9C9C9C'} />
                         <br/>
                         <NavLink to='./Contact' >

@@ -6,3 +6,8 @@
     cursor: pointer;
 }
 
+#button:hover{
+    background-color: red;
+    color: orange;
+}
+
