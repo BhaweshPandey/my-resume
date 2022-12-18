@@ -8,13 +8,29 @@
     height: 100vh;
     background-color: black;
 }
+
+.name{
+    /* background-color: aqua; */
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;color:blue;}
+  }
+
 .HomeContainer{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
-    /* padding: 200px; */
+    padding: 200px;
+    background-color: black;
+    /* height: 100vh; */
     /* justify-content: center; */
     /* align-items: center; */
 }
+
+
 
 .Home-mid{
     display: flex;
@@ -25,11 +41,14 @@
 
 .pic{
     border-radius: 100%;
+    position: relative;
+    animation: mymovepic 5s infinite;
+    animation-delay: 2s;
 }
-
-.Home-footer{
-    margin-top: 10px;
-}
+@keyframes mymovepic {
+    from {top: -100px;}
+    to {top: 180px;}
+  }
 
 .Home-footBox{
     border: 1px solid rgb(216, 207, 207);
@@ -38,6 +57,17 @@
     margin-top: 8px;
 
 }
+
+.contact-btn{
+    position: relative;
+    animation: mymovebtn 10s infinite;
+    animation-delay: 5s;
+}
+@keyframes mymovebtn {
+    from {left: 0px;}
+    to {left: 280px;background-color: red;color: white;}
+  }
+
 
 @media (max-width:600px) {
     .Home{

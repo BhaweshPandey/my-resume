@@ -11,25 +11,24 @@ const Home = () => {
             <div className='HomeContainer'>
                 <div className='Home-mid'>
                     <div className='HomeMid-left'>
-                        <Text TextName={'BHAWESH PANDEY'} Size={'44px'} textColor={'white'}/>
+                        <Text style={'name'} TextName={'BHAWESH PANDEY'} Size={'44px'} textColor={'white'}/>
                         <br/>
-                        <Text TextName={'I am Bhawesh Pandey . I am Front-end developer currently living in a uttarakhand (INDIA),'} Size={'14px'} textColor={'#9C9C9C'} />
-                        <Text TextName={'currently building the moblie and web application for a newly Start Up ,bsite for us .'} Size={'14px'} textColor={'#9C9C9C'} />
+                        <Text TextName={'I am Bhawesh Pandey . I am Front-end developer currently living in a uttarakhand (INDIA),currently building the moblie and web application for a newly Start Up ,bsite for us .'} Size={'14px'} textColor={'#9C9C9C'} />
                         <br/>
                         <NavLink to='./Contact' >
-                        <Button ButtonName={'Contact Me'} bgColor={'#3F8E00'} Size={'16px'} textcolor={'#ffffff'} width={'307px'} height={'60px'}/>
+                        <Button style={'contact-btn'} ButtonName={'Contact Me'} bgColor={'#3F8E00'} Size={'16px'} textcolor={'#ffffff'} width={'307px'} height={'60px'}/>
                         </NavLink>
                     </div>
                     <div className='HomeMid-right'>
                         <img className='pic' height='300px' width='300px' src={AllImage.Bhawesh} />
                     </div>
                 </div>
-                <div className='Home-footer'>
-                    <Text TextName={'Work with'} textColor={'#9C9C9C'} Size={'20px'} />
+                {/* <div className='Home-footer'>
+                    <Text TextName={'Work in'} textColor={'#9C9C9C'} Size={'20px'} />
                     <div className='Home-footBox'>
                         <Text TextName={'Highpolar Softwares'} textColor={'#9C9C9C'} Size={'20px'}/>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
